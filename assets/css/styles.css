@@ -255,7 +255,7 @@ Footer
 
 footer{
     background-color: #fff;
-    color: var(--second-c);
+    color: #576171;
   }
   footer ul{
     padding:0;
@@ -291,6 +291,7 @@ footer{
   .rrss-element-footer ul{
     display: flex;
     flex-flow: wrap;
+    color: #576171
   }
   .rrss-element-footer img{
     width: 35px;
@@ -403,22 +404,6 @@ footer{
     }
 }
 
-@media (max-width:768px){
-    .wrap-footer{
-      grid-template-columns: repeat(2,1fr);
-    }
-  }
-  
-  @media (max-width:480px){
-    .wrap-footer{
-      grid-template-columns: repeat(1,1fr);
-    }
-  }
-  
-  @media (max-width:320px){
-    .footer-creds{
-      flex-flow: column;
-    }
-  }
+
 
 
